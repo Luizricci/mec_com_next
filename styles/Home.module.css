@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main{
+    background-color: aquamarine;
+    height: 80vh;
+    align-items: center;
+    display: flex;
+}
+
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 90%;
+
+}
+
+
+.image{
+    width: 90%;
+    height: 97%;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+}

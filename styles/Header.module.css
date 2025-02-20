@@ -1,0 +1,13 @@
+.header{
+    background: linear-gradient( 90deg, rgba(183, 0, 255, 0.7) 0%, rgba(255, 1, 1, 0.7) 100%);
+}
+.title {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.myName{
+    color: white;
+    display: flex;
+    justify-content: center;
+}

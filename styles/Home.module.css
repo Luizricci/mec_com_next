@@ -13,19 +13,4 @@
 }
 
 
-.aside{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    height: 90%;
 
-}
-
-
-.image{
-    width: 90%;
-    height: 97%;
-    border-radius: 10px;
-    display: flex;
-    margin-top: 10px;
-}

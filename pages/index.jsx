@@ -2,6 +2,7 @@ import styles from "../styles/Home.module.css"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Lista from "../components/Lista"
+import Anuncio from "../components/Anuncio"
 
 
 export default function Home(){
@@ -10,9 +11,7 @@ export default function Home(){
             <Header />
             <main className={styles.main}> 
             <Lista />
-                <aside className={styles.aside}>
-                    <img className={styles.image} src="/propaganda_mequi.jpg" alt="propaganda do mequi" />
-                </aside>
+            <Anuncio />
             </main>
             <Footer />
         </div>

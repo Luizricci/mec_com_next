@@ -9,9 +9,13 @@ export default function Home(){
     return (
         <div className={styles.container}>
             <Header />
-            <main className={styles.main}> 
-            <Lista />
-            <Anuncio />
+            <main className={styles.main}>
+                <div className={styles.listaContainer}>
+                <Lista  title= "Big-Mac"/>
+                <Lista title= "Quarteirão"/>
+                <Lista title= "Big Tasty" />
+                </div>
+                <Anuncio />
             </main>
             <Footer />
         </div>

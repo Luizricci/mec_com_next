@@ -1,8 +1,8 @@
 .section{
     display: flex;
     flex-direction: column;
-    width: 60%;
-    height: 90%;
+    width: 80%;
+    height: 100%;
     }
     
 .divItem{
@@ -16,3 +16,4 @@
     border: 2px solid black;
     border-radius: 10px;
     }
+
